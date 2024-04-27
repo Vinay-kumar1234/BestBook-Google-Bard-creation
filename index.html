@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestbook</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: linear-gradient(to right, #ff9999, #66b3ff);
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .header a {
+            color: #000;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .header a:hover {
+            background-color: #f0f0f0;
+        }
+
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .book-category {
+            width: 25%;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .book-category h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .book-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .book-item img {
+            width: 100px;
+            height: auto;
+        }
+
+        .book-details {
+            flex: 1;
+        }
+
+        .book-details h4 {
+            margin-bottom: 5px;
+        }
+
+        .stock {
+            font-size: 12px;
+            color: #999;
+        }
+
+        .add-to-cart {
+            background-color: #333;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .add-to-cart:hover {
+            background-color: #444;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f0f0f0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#">Bestbook</a>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Best Selling</a>
+            <a href="#">History (Amount Spent)</a>
+            <a href="#">Coins/Coupons</a>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="book-category">
+            <h3>Books</h3>
+            <div class="book-item">
+                <img src="images/book1.jpg" alt="Book 1">
+                <div class="book-details">
+                    <h4>Book Title</h4>
+                    <p class="stock">In Stock</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            </div>
+        <div class="book-category">
+            <h3>Manga</h3>
+            <div class="book-item">
+                <img src="images/manga1.jpg" alt="Manga 1">
+                <div class="book-details">
+                    <h4>Manga
